@@ -7,6 +7,7 @@
 Este projeto implementa um processo de ETL (Extract, Transform, Load) para processar dados de orçamento do Estado de São Paulo de 2019. O processo envolve a extração de dados de arquivos CSV, a transformação para ajustar tipos de dados e corrigir formatações, e o carregamento dos dados tratados em um banco de dados SQL Server.
 
 
+
 *Passos do Processo de ETL*
 
 1. Extração (Extract)
@@ -34,8 +35,11 @@ Os dados transformados são carregados em tabelas separadas no banco de dados SQ
 Utiliza-se SQLAlchemy para criar uma conexão com o banco de dados e Pandas para enviar os DataFrames diretamente para o SQL Server.
 
 
+
 *Requisitos*
 
 Python 3.x
+
 Bibliotecas: pandas, sqlalchemy, pyodbc
+
 Banco de Dados SQL Server
